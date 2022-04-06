@@ -56,7 +56,7 @@ public class FileDocLuongLamViec {
 				//========Giao tiếp theo giao thức thiết kế=====
 				while(true) {
 					//Gửi yêu cầu cho client
-					buffW.write("Nhập số (1-10) file cần đọc (0 để dừng): "+"\n");
+					buffW.write("Nhập số từ 1 đến 10 là: "+"\n");
 					buffW.flush();
 					
 					//Nhận dữ liệu
