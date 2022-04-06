@@ -5,8 +5,8 @@ import java.net.Socket;
 public class FlieDocChuongTrinhChinh {
 
 	public static void main(String[] args) {
-		ServerSocket socketServer = new ServerSocket(9696);
-		System.out.print("I'm waiting on 9696 port...");
+		ServerSocket socketServer = new ServerSocket(8888);
+		System.out.print("I'm waiting on 8888 port...");
 		//
 		int id=0;
 		while(true) {

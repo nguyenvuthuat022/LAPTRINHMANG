@@ -12,7 +12,7 @@ public class FileDocClient {
 
 	public static void main(String[] args) {
 		try {
-			Socket soc = new Socket("Localhost",9696);
+			Socket soc = new Socket("Localhost",8888);
 			System.out.print("Connected!!\n");
 			//Lấy luồng nhập
 			InputStream in = soc.getInputStream();
